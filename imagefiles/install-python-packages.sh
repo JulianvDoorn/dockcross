@@ -20,7 +20,7 @@ done
 
 cd /tmp
 
-curl -# -LO https://bootstrap.pypa.io/pip/get-pip.py
+curl -# -LO https://bootstrap.pypa.io/pip/3.7/get-pip.py
 # https://github.com/pypa/setuptools/issues/2993
 export SETUPTOOLS_USE_DISTUTILS=stdlib
 # Add --break-system-packages to fix change since python 3.11: https://stackoverflow.com/a/75722775/10152334
